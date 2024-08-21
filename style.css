@@ -48,35 +48,62 @@ nav ul li {
     padding-right: 65px;
 }
 .bannertext h1 {
-    font-size: 60px;
+    font-size: 70px;
 }
 .secondh1 {
     padding-bottom: 20px;
 }
 h3 {
-    line-height: 28px;
+    line-height: 40px;
     padding-bottom: 35px;
+    font-size: 20px;
 }
 .selections {
     grid-area: selections;
     display: flex;
-    column-gap: 15px;
+    column-gap: 30px;
 }
 .selection {
     flex: 3;
+    height: 550px;
 }
 .breakfast {
     background-image: url(images/breakfast.jpg);
-    background-size: 405.33px 396px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    position: relative;
 }
 .lunch {
     background-image: url(images/lunch.jpg);
-    background-size: 405.33px 396px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    position: relative;
 }
 .dinner {
     background-image: url(images/dinner.jpg);
-    background-size: 405.33px 396px;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    position: relative;
+}
+.tags {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 25px;
+    width: 50%;
+}
+.firsttag {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    position: absolute;
+    right: 0px;
+    bottom: 49px;
+}
+.secondtag {
+    background-color: rgb(68, 211, 68);
+    padding: 10px;
+    padding-right: 25px;
+    text-align: right;
 }
