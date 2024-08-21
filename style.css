@@ -4,9 +4,38 @@
 }
 header {
     width: 100%;
-    background-color: blue;
+    height: 90px;
+    background-color: white;
+    display: grid;
+    grid-template-areas: "logo nav";
+}
+.mihealthlogo {
+    width: 250px;
+    height: 43px;
+    background-image: url(images/MIHEALTH.png);
+    grid-area: logo;
+    position: relative;
+    left: 100px;
+    top: 25px;
+}
+nav {
+    height: 100%;
+    grid-area: nav;
+}
+nav ul {
+    padding: 0px;
+    display: flex;
+    position: relative;
+    top: 35px;
+    right: 50px;
+}
+nav ul li {
+    list-style-type: none;
+    flex: 4;
+    font-family: Arial;
+    font-size: 20px;
 }
 .selectionbanner {
     width: 100%;
-    background-color: rgb(103, 103, 103);
+    background-color: rgb(205, 205, 205);
 }
