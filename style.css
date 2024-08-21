@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial;
 }
 header {
     width: 100%;
@@ -32,10 +33,35 @@ nav ul {
 nav ul li {
     list-style-type: none;
     flex: 4;
-    font-family: Arial;
     font-size: 20px;
 }
 .selectionbanner {
     width: 100%;
     background-color: rgb(205, 205, 205);
+    display: grid;
+    grid-template-areas: "text selections";
+    grid-template-columns: 30% 70%;
+    padding: 70px;
+}
+.bannertext {
+    grid-area: text;
+}
+.bannertext h1 {
+    font-size: 60px;
+}
+.selections {
+    grid-area: selections;
+    display: flex;
+}
+.selection {
+    flex: 3;
+}
+.breakfast {
+    background-image: url(images/breakfast.jpg);
+}
+.lunch {
+    background-image: url(images/lunch.jpg);
+}
+.dinner {
+    background-image: url(images/dinner.jpg);
 }
